@@ -1,10 +1,8 @@
-namespace Models
-{
-    public class ErrorViewModel
-    {
-        private string? _requestId {get;set;}
-        public string? RequestId {get{return _requestId;} set{_requestId=value;}}  
+namespace Bandwich.Models;
 
-        public bool ShowRequestId => !string.IsNullOrEmpty(_requestId);
-    }
+public class ErrorViewModel
+{
+    public string? RequestId { get; set; }
+
+    public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 }
