@@ -1,0 +1,9 @@
+C:\Users\Laust\Visual_studio\ASP.NET\Laustrup\Bandwich\obj\Debug\net6.0\Bandwich.csproj.AssemblyReference.cache
+C:\Users\Laust\Visual_studio\ASP.NET\Laustrup\Bandwich\obj\Debug\net6.0\Bandwich.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Laust\Visual_studio\ASP.NET\Laustrup\Bandwich\obj\Debug\net6.0\Bandwich.AssemblyInfoInputs.cache
+C:\Users\Laust\Visual_studio\ASP.NET\Laustrup\Bandwich\obj\Debug\net6.0\Bandwich.AssemblyInfo.cs
+C:\Users\Laust\Visual_studio\ASP.NET\Laustrup\Bandwich\obj\Debug\net6.0\Bandwich.csproj.CoreCompileInputs.cache
+C:\Users\Laust\Visual_studio\ASP.NET\Laustrup\Bandwich\obj\Debug\net6.0\Bandwich.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Laust\Visual_studio\ASP.NET\Laustrup\Bandwich\obj\Debug\net6.0\Bandwich.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Laust\Visual_studio\ASP.NET\Laustrup\Bandwich\obj\Debug\net6.0\Bandwich.RazorAssemblyInfo.cache
+C:\Users\Laust\Visual_studio\ASP.NET\Laustrup\Bandwich\obj\Debug\net6.0\Bandwich.RazorAssemblyInfo.cs
