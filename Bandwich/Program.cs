@@ -1,25 +1,18 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
-using Data;
+using App_Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<WebshopContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("WebshopContext")));
+builder.Services.AddDbContext<BandwichContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("BandwichContext")));
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
-    .AddEntityFrameworkStores<WebshopContext>();builder.Services.AddDbContext<WebshopContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("WebshopContext")));
-
-/*
-builder.Services.AddIdentity<IdentityUser, IdentityRole>()
-.AddDefaultUI()
-.AddEntityFrameworkStores<WebshopContext>();
-builder.Services.AddControllersWithViews();
-*/
+    .AddEntityFrameworkStores<BandwichContext>();builder.Services.AddDbContext<BandwichContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("BandwichContext")));
 
 var app = builder.Build();
 

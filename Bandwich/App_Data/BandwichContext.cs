@@ -1,4 +1,4 @@
-﻿namespace Laustrup.App_Data
+﻿namespace App_Data
 {
     public class BandwichContext
     {
