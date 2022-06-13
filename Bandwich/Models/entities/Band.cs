@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Models;
+using Bandwich.Models;
 
-namespace entities
+namespace Bandwich.entities
 {
     // Author Laust Eberhardt Bonnesen
     public class Band : Entity

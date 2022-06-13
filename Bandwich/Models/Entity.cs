@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Models
+namespace Bandwich.Models
 {
     // Author Laust Eberhardt Bonnesen
     public class Entity
