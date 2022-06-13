@@ -34,6 +34,7 @@ app.UseAuthorization();
 app.MapRazorPages();
 app.MapControllerRoute(
     name: "default",
-    pattern: "Laustrup/Bandwich/{controller=Home}/{action=Index}/{id?}");
+    pattern: "Bandwich/{controller=Home}/{action=Index}/{id?}"
+);
 
 app.Run();
