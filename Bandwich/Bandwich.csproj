@@ -28,4 +28,8 @@
     <_ContentIncludedByDefault Remove="Views\Users\index.cshtml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Ressources" />
+  </ItemGroup>
+
 </Project>
