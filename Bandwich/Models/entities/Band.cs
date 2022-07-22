@@ -1,27 +1,26 @@
 ﻿using Bandwich.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace Bandwich.entities
 {
     // Author Laust Eberhardt Bonnesen
     public class Band : User
     {
+        [PersonalData]
         private string _runner { get; set; } public string Runner { get => _runner; set => _runner = value; }
+        [PersonalData]
         private string _area { get; set; } public string Area { get => _area; set => _area = value; }
 
+        [PersonalData]
         private List<BandMember> _bandMembers { get; set; } public List<BandMember> BandMembers { get => _bandMembers; }
+        [PersonalData]
         private List<Gig> _gigs { get; set; } public List<Gig> Gigs { get => _gigs; }
+        [PersonalData]
         private List<string> _audioURLs { get; set; } public List<string> AudioURLs { get => _audioURLs; }
+        [PersonalData]
         private List<string> _imageURLs { get; set; } public List<string> ImageURLs { get => _imageURLs; }
 
         // Constructors
-        public Band(string description, string area) : base(description)
-        {
-            _area = area;
-            _runner = "";
-
-            _gigs = new List<Gig>();
-            _audioURLs = new List<string>();            
-        }
         public Band(string description, string area, string runner) : base(description)
         {
             _area = area;

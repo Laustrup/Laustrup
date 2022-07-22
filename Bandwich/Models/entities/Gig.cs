@@ -1,4 +1,5 @@
 ﻿using Bandwich.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace Bandwich.entities
 {
