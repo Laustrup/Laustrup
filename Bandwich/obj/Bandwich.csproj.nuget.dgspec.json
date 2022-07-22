@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Laust\\RiderProjects\\ASP\\Dotnet\\Laustrup\\Bandwich\\Bandwich.csproj": {}
+    "C:\\Users\\Laust\\Visual_studio\\ASP.NET\\Laustrup\\Bandwich\\Bandwich.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Laust\\RiderProjects\\ASP\\Dotnet\\Laustrup\\Bandwich\\Bandwich.csproj": {
+    "C:\\Users\\Laust\\Visual_studio\\ASP.NET\\Laustrup\\Bandwich\\Bandwich.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Laust\\RiderProjects\\ASP\\Dotnet\\Laustrup\\Bandwich\\Bandwich.csproj",
+        "projectUniqueName": "C:\\Users\\Laust\\Visual_studio\\ASP.NET\\Laustrup\\Bandwich\\Bandwich.csproj",
         "projectName": "Bandwich",
-        "projectPath": "C:\\Users\\Laust\\RiderProjects\\ASP\\Dotnet\\Laustrup\\Bandwich\\Bandwich.csproj",
-        "packagesPath": "C:\\Users\\Laust\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Laust\\RiderProjects\\ASP\\Dotnet\\Laustrup\\Bandwich\\obj\\",
+        "projectPath": "C:\\Users\\Laust\\Visual_studio\\ASP.NET\\Laustrup\\Bandwich\\Bandwich.csproj",
+        "packagesPath": "C:\\Users\\laustadmin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Laust\\Visual_studio\\ASP.NET\\Laustrup\\Bandwich\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Laust\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\laustadmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -58,17 +58,17 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.7, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.7, )"
             }
           },
           "imports": [
